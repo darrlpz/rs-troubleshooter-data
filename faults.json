@@ -43,5 +43,28 @@
       "Always carry a multimeter when dealing with electrical equipments",
       "Prefer hot-swap only for relays marked hot-swap."
     ]
+  },
+  {
+    "code": "10002",
+    "title": "DIR Energized",
+    "subsystem": "DOR",
+    "severity": "HIGH",
+    "description": "All doors closed and locked but DIR is Energized",
+    "vccDiagram": "door_loop_circuit_22.png",
+    "relayTags": ["DIRA1", "DIRA2","DIRB1","DIRB2"],
+    "steps": [
+      "Identify from which car (1D or 2D) the DIR is showing de-energized",
+      "Ensure all door-closed indications are glowing on the N7 panel",
+      "Check the CEC for tripping of any door-related CBs",
+      "Check SEC-1 for DIR relays not picked when all doors are physically closed (Relay LED should glow when picked)",
+      "If a faulty relay is found, swap it with another non-critical and hot-swappable relay in SEC-1",
+      "If the fault persists, perform movement with double PDB and take the train to the depot"
+    ],
+    "quickTips": [
+      "Always carry a multimeter when dealing with electrical equipments",
+      "Prefer hot-swap only for relays marked hot-swap."
+    ]
   }
+	
 ]
+
