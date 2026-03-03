@@ -1,0 +1,88 @@
+tag,type,cabinet,locationDetail,description,isCritical,supportsHotSwap,supportsColdSwap
+VCBOR1,D-U204-QL,SEC 2,DT,Vacuum Circuit Breaker Opened Relay 1,TRUE,FALSE,TRUE
+VCBOR2,D-U204-QL,SEC 2,DT,Vacuum Circuit Breaker Opened Relay 2,TRUE,FALSE,TRUE
+NSFR,D-U204-QL,SEC 2,DT,Neutral Section Forecast Relay,FALSE,TRUE,TRUE
+NSDRR,D-U204-QL,SEC 2,DT,Neutral Section Detector Status Repeat Relay,FALSE,TRUE,TRUE
+NSDIR,D-U204-QL,SEC 2,DT,Neutral Section Detector Isolated Relay,FALSE,TRUE,TRUE
+NSDSR,D-U204-QL,SEC 2,DT,Neutral Section Detector Status Relay,FALSE,TRUE,TRUE
+LPR,D-U204-QL,SEC 2,DT,Lower Pantograph Relay,TRUE,TRUE,TRUE
+ADDRR,D-U204-QL,SEC 2,DT,Automatic Drop Down Device Reset Relay,FALSE,FALSE,TRUE
+VCBRR,D-U204-QL,SEC 2,DT,Vacuum Circuit Breaker Repeat Relay,TRUE,FALSE,TRUE
+ADDR2,D-U204-QL,SEC 2,DT,Automatic Drop Down Device Relay 2,TRUE,FALSE,TRUE
+ADDR1,D-U204-QL,SEC 2,DT,Automatic Drop Down Device Relay 1,TRUE,FALSE,TRUE
+VCBCR1,D-U204-QL,SEC 2,DT,Vacuum Circuit Breaker Close Relay 1,TRUE,FALSE,TRUE
+WOSR1,D8-U204-LQ,SEC 2,DT,Workshop Socket Relay 1,FALSE,TRUE,TRUE
+WOSR2,D8-U204-LQ,SEC 2,DT,Workshop Socket Relay 2,FALSE,TRUE,TRUE
+SIVFR,D-U204-QL,SEC 2,DT,Static Inverter Fail Relay,TRUE,FALSE,TRUE
+ESCR,D-U204-QL,SEC 2,DT,Extension Supply Contactor,FALSE,TRUE,TRUE
+VCBCRR,D8-U204-LQ,SEC 2,DT,Vacuum Circuit Breaker Closed Repeat Relay,TRUE,FALSE,TRUE
+CMR,D8-U204-LQ,SEC 2,DT,Main Air Compressor Relay,FALSE,TRUE,TRUE
+MTRR,D-U204-QL,SEC 2,DT,MTr Thermal Repeat Relay,FALSE,TRUE,TRUE
+VCBORR,D-U204-QL,SEC 2,DT,Vacuum Circuit Breaker Opened Repeat Relay,TRUE,FALSE,TRUE
+VCBTR,D-U204-QL,SEC 2,DT,Vacuum Circuit Breaker Trip Relay,TRUE,FALSE,TRUE
+VCBTRR,D-U204-QL,SEC 2,DT,Vacuum Circuit Breaker Trip Repeat Relay,TRUE,FALSE,TRUE
+VCBTRR1,D-U204-QL,SEC 2,DT,Vacuum Circuit Breaker Trip Repeat Relay 1,TRUE,FALSE,TRUE
+VCBTRR2,D-U204-QL,SEC 2,DT,Vacuum Circuit Breaker Trip Repeat Relay 2,TRUE,FALSE,TRUE
+VCBTRR3,D-U204-QL,SEC 2,DT,Vacuum Circuit Breaker Trip Repeat Relay 3,TRUE,FALSE,TRUE
+VCBTRR4,D-U204-QL,SEC 2,DT,Vacuum Circuit Breaker Trip Repeat Relay 4,TRUE,FALSE,TRUE
+AMR1,D8-U204-LQ,ATC,DT,ATO Mode Relay 1,FALSE,TRUE,TRUE
+AMTDR,D-U204-QL,ATC,DT,Automatic Mode Traction Demand Relay,FALSE,TRUE,TRUE
+ARR,D-U204-QL,ATC,DT,Automatic Reversal Relay,FALSE,TRUE,TRUE
+COAR,D-U204-QL,ATC,DT,Coasting Relay,TRUE,TRUE,TRUE
+FORR,D8-U204-LQ,ATC,DT,Forward Position Relay,TRUE,TRUE,TRUE
+AMBDR,D-U204-QL,ATC,DT,Automatic Mode Braking Demand Relay,FALSE,TRUE,TRUE
+KSR,D8-U204-LQ,ATC,DT,Key Switch Relay,TRUE,FALSE,TRUE
+SSR,D-U204-QL,ATC,DT,Static Inverter Start Relay,TRUE,TRUE,TRUE
+SBR,D-U204-QL,ATC,DT,Standby Relay,TRUE,TRUE,TRUE
+KSLR,D-U204-QL,ATC,DT,Key Switch Interlocking Relay,TRUE,TRUE,TRUE
+ZVR1,D8-U204-LQ,SEC 1,DT,Zero Velocity Relay 1,TRUE,TRUE,TRUE
+ZVR2,D8-U204-LQ,SEC 1,DT,Zero Velocity Relay 2,TRUE,TRUE,TRUE
+ZVR3,D8-U204-LQ,SEC 1,DT,Zero Velocity Relay 3,TRUE,TRUE,TRUE
+ZVR4,D8-U204-LQ,SEC 1,DT,Zero Velocity Relay 4,TRUE,TRUE,TRUE
+DIRA2,D-U204-QL,SEC 1,DT,Door Interlocking Relay A2,TRUE,TRUE,TRUE
+DIRB2,D-U204-QL,SEC 1,DT,Door Interlocking Relay B2,TRUE,TRUE,TRUE
+DAOR,D-U204-QL,SEC 1,DT,Door Alleyway Open Relay,FALSE,TRUE,TRUE
+AADOR-A,D-U204-QL,SEC 1,DT,Automatic Authorisation Door Open Relay Side A,FALSE,TRUE,TRUE
+AADOR-B,D-U204-QL,SEC 1,DT,Automatic Authorisation Door Open Relay Side B,FALSE,TRUE,TRUE
+DIRA1,D8-U204-LQ,SEC 1,DT,Door Interlocking Relay A1,TRUE,TRUE,TRUE
+DIRB1,D8-U204-LQ,SEC 1,DT,Door Interlocking Relay B1,TRUE,TRUE,TRUE
+KSPR,D-U204-QL,SEC 1,DT,Key Switch Pulse Relay,TRUE,FALSE,TRUE
+WMR2,D-U204-QL,SEC 1,DT,Wah Mode Relay 2,FALSE,TRUE,TRUE
+WMR1,D8-U204-LQ,SEC 1,DT,Wah Mode Relay 1,FALSE,TRUE,TRUE
+CTR,D8-U204-LQY,SEC 1,DT,Coupling Train Relay,FALSE,TRUE,TRUE
+WFLR,D-U204-QL,SEC 1,DT,Wheel Flange Lubricator Relay,FALSE,TRUE,TRUE
+DMR,D8-U204-LQY,SEC 1,DT,Dead Man Relay,TRUE,TRUE,TRUE
+EBR,D-U204-QL,SEC 1,DT,Emergency Brake Relay,TRUE,TRUE,TRUE
+CLIR,D-U204-QL,SEC 1,DT,Cab Light Indication Relay,FALSE,TRUE,TRUE
+SLR,D-U204-QL,SEC 1,DT,Sleep Relay,TRUE,TRUE,TRUE
+LCSR,D-U204-QL,SEC 1,DT,Local Control Select Relay,TRUE,TRUE,TRUE
+DSPR,D-U204-QL,SEC 1,DT,Driver Sleep Relay,TRUE,TRUE,TRUE
+COR1,D8-U207-LQY,SEC 1,DT,Cab Occupied Relay 1,TRUE,TRUE,TRUE
+COR2,D8-U207-LQY,SEC 1,DT,Cab Occupied Relay 2,TRUE,TRUE,TRUE
+COR3,D8-U207-LQ,SEC 1,DT,Cab Occupied Relay 3,TRUE,TRUE,TRUE
+COR4,D8-U207-LQY,SEC 1,DT,Cab Occupied Relay 4,TRUE,TRUE,TRUE
+COR5,D8-U207-LQ,SEC 1,DT,Cab Occupied Relay 5,TRUE,TRUE,TRUE
+COR6,D8-U207-LQ,SEC 1,DT,Cab Occupied Relay 6,TRUE,TRUE,TRUE
+COR7,D8-U207-LQ,SEC 1,DT,Cab Occupied Relay 7,TRUE,TRUE,TRUE
+COR8,D8-U207-LQY,SEC 1,DT,Cab Occupied Relay 8,TRUE,TRUE,TRUE
+COR9,D8-U207-LQ,SEC 1,DT,Cab Occupied Relay 9,TRUE,TRUE,TRUE
+ABAR,D-U204-QL,SEC 1,DT,All Brakes Applied Relay,TRUE,TRUE,TRUE
+APBAR,D-U204-QL,SEC 1,DT,All Parking Brakes Applied Relay,TRUE,TRUE,TRUE
+APBRR,D-U204-QL,SEC 1,DT,All Parking Brakes Release Relay,TRUE,TRUE,TRUE
+ABRR,D8-U204-LQ,SEC 1,DT,All Brakes Release Relay,TRUE,TRUE,TRUE
+BDR1,D-U204-LQY,SEC 1,DT,Brake Demand Relay 1,TRUE,TRUE,TRUE
+BDR2,D-U204-LQY,SEC 1,DT,Brake Demand Relay 2,TRUE,TRUE,TRUE
+FR,D-U204-QL,SEC 1,DT,Forward Relay,TRUE,TRUE,TRUE
+MAR1,D-U204-LQY,SEC 1,DT,Motoring Authorization Relay 1,TRUE,TRUE,TRUE
+MAR2,D-U204-LQY,SEC 1,DT,Motoring Authorization Relay 2,TRUE,TRUE,TRUE
+RR,D-U204-QL,SEC 1,DT,Reverse Relay,FALSE,TRUE,TRUE
+RSR,D-U204-QL,SEC 1,DT,Restricted Speed Relay (60KMPH),FALSE,TRUE,TRUE
+ACFR,D-U204-QL,SEC 1,DT,All Charger Fault Relay,TRUE,TRUE,TRUE
+PBAR,D-U204-QL,LVB,DT,Parking Brake Applied Relay,TRUE,FALSE,TRUE
+BAR1,D-U204-QL,LVB,DT,Brake Demand Relay 1,TRUE,FALSE,TRUE
+BAR2,D-U204-QL,LVB,DT,Brake Demand Relay 2,TRUE,FALSE,TRUE
+EBR,D-U204-QL,SEC 1,M,Emergency Brake Relay,TRUE,FALSE,TRUE
+WUR,D-U204-QL,SEC 1,M,Wake Up Relay,TRUE,FALSE,TRUE
+PBAR,D-U204-QL,LVB,M,Parking Brake Applied Relay,TRUE,FALSE,TRUE
+BAR1,D-U204-QL,LVB,M,Bogie Brake Applied Relay 1,TRUE,FALSE,TRUE
+BAR2,D-U204-QL,LVB,M,Bogie Brake Applied Relay 2,TRUE,FALSE,TRUE

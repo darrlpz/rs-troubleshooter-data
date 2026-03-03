@@ -1,0 +1,47 @@
+[
+  {
+    "code": "17126",
+    "title": "SIV Fault - Ground Fault Detector (GFD)",
+    "subsystem": "AUX",
+    "severity": "HIGH",
+    "description": "Ground fault detected in SIV output circuit.",
+    "vccDiagram": "siv_fault.png",
+    "relayTags": ["SSR", "SIVFR"],
+    "steps": [
+      "Identify which car (1D or 2D) had the first ground fault.",
+	  "Isolate the affected unit pantograph",
+	  "Check SIV status on AUX page",
+	  "Check for any other SIV fault on Fault page and History page",
+	  "Turn off VAC by VACIS or trip all cars’ VAC control CBs and MPCBs.",
+	  "Raise the affected unit pantograph.",
+      "If no ground fault recurs, move the train with both pantograph raised.",
+      "Trip ESCCB1 in both DT cars to prevent SIV redundancy"
+    ],
+    "quickTips": [
+      "Always be cautious when dealing with electrical cabinets",
+      "Prefer hot-swap only for relays marked hot-swap."
+    ]
+  },
+
+  {
+    "code": "10001",
+    "title": "DIR De-Energized",
+    "subsystem": "DOR",
+    "severity": "HIGH",
+    "description": "All doors closed and locked but DIR is De-Energized",
+    "vccDiagram": "door_loop_circuit_22.png",
+    "relayTags": ["DIRA1", "DIRA2","DIRB1","DIRB2"],
+    "steps": [
+      "Identify from which car (1D or 2D) the DIR is showing de-energized",
+      "Ensure all door-closed indications are glowing on the N7 panel",
+      "Check the CEC for tripping of any door-related CBs",
+      "Check SEC-1 for DIR relays not picked when all doors are physically closed (Relay LED should glow when picked)",
+      "If a faulty relay is found, swap it with another non-critical and hot-swappable relay in SEC-1",
+      "If the fault persists, perform movement with double PDB and take the train to the depot"
+    ],
+    "quickTips": [
+      "Always carry a multimeter when dealing with electrical equipments",
+      "Prefer hot-swap only for relays marked hot-swap."
+    ]
+  }
+]
